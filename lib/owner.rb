@@ -72,4 +72,9 @@ class Owner
       dog,owner = nil
       dog.mood = "nervous"
     end
+    self.cats.each do |cats|
+      self.cats.delete(cats)
+      cats,owner = nil
+      cats.mood = "nervous"
+    end
 end
