@@ -54,4 +54,9 @@ class Owner
   def buy_dog(name)
     dog = Dog.new(name, self)
   end
+
+  def walk_dogs
+    Dog.each do |dog|
+      dog.mood = "happy"
+    end
 end
