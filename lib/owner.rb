@@ -77,4 +77,5 @@ class Owner
       cats,owner = nil
       cats.mood = "nervous"
     end
+  end
 end
