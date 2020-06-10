@@ -44,6 +44,8 @@ class Owner
   def cats
     Cat.all.select do |cat|
       cat.owner == self
+    end
+  end
 
   def buy_cat(name)
     cat = Cat.new(name, self)
