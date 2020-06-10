@@ -71,4 +71,5 @@ class Owner
       self.dogs.delete(dog)
       dog,owner = nil
       dog.mood = "nervous"
+    end
 end
